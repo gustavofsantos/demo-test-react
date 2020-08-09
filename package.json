@@ -1,8 +1,12 @@
 {
   "name": "demo-app",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "author": {
+    "name": "Gustavo Santos",
+    "email": "gustavofsantos@outlook.com"
+  },
   "scripts": {
     "test": "jest --no-cache",
     "test:watch": "jest --no-cache --watch",
@@ -10,7 +14,6 @@
     "test:coverage:ci": "CI=true jest --no-cache --coverage"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "i18next": "^19.6.3",
