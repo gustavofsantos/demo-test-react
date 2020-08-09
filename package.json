@@ -1,0 +1,40 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "i18next": "^19.6.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/dom": "^7.22.0",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.8",
+    "@testing-library/user-event": "^12.1.1",
+    "babel-jest": "^26.2.2",
+    "eslint": "^7.6.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.2.2",
+    "react-test-renderer": "^16.13.1",
+    "regenerator-runtime": "^0.13.7",
+    "yaml-jest": "^1.0.5"
+  }
+}
