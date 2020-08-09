@@ -1,1 +1,8 @@
 login: Login
+email: Email
+password: Senha
+login_action: Entrar
+
+
+email_required: E-mail não pode ser vazio
+password_required: Senha não pode ser vazia

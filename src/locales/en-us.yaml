@@ -1,1 +1,4 @@
 login: Login
+email: Email
+password: Password
+login_action: Enter

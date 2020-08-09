@@ -4,10 +4,7 @@ module.exports = {
     es2020: true,
     jest: true
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard'
-  ],
+  extends: ['plugin:react/recommended', 'standard'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
@@ -19,9 +16,9 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module'
   },
-  plugins: [
-    'react'
-  ],
+  plugins: ['react'],
   rules: {
+    'max-len': ['error', { code: 80 }],
+    'space-before-function-paren': 'off'
   }
 }

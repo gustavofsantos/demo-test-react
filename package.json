@@ -17,8 +17,10 @@
   "license": "ISC",
   "dependencies": {
     "i18next": "^19.6.3",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^6.3.1",
     "react-i18next": "^11.7.0"
   },
   "devDependencies": {
@@ -39,6 +41,7 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^26.2.2",
+    "prettier": "^2.0.5",
     "react-test-renderer": "^16.13.1",
     "regenerator-runtime": "^0.13.7",
     "yaml-jest": "^1.0.5"
