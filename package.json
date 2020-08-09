@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --no-cache"
+    "test": "jest --no-cache",
+    "test:watch": "jest --no-cache --watch",
+    "test:coverage": "jest --no-cache --watch --coverage",
+    "test:coverage:ci": "CI=true jest --no-cache --coverage"
   },
   "keywords": [],
   "author": "",

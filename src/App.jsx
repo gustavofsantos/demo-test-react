@@ -1,5 +1,5 @@
 import React from 'react'
-import '../config/i18n'
+import './config/i18n'
 
 export default function App () {
   return (

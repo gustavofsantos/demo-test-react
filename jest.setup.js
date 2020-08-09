@@ -1,2 +1,2 @@
 import 'regenerator-runtime/runtime'
-import './config/i18n'
+import './src/config/i18n'
