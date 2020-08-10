@@ -16,7 +16,10 @@ export default function LoginForm({ onSubmit }) {
         id="login_email"
         name="email"
         type="email"
-        ref={register({ required: true })}
+        ref={register({
+          required: true,
+          validate: (value) => value.length > 3
+        })}
       />
       {errors.email && (
         <span className="form-error" role="alert">
@@ -30,7 +33,8 @@ export default function LoginForm({ onSubmit }) {
         name="password"
         type="password"
         ref={register({
-          required: true
+          required: true,
+          validate: (value) => value.length >= 6
         })}
       />
       {errors.password && (

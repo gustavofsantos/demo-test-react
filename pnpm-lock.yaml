@@ -23,6 +23,7 @@ devDependencies:
   eslint-plugin-promise: 4.2.1
   eslint-plugin-react: 7.20.5_eslint@7.6.0
   eslint-plugin-standard: 4.0.1_eslint@7.6.0
+  fast-check: 2.1.0
   jest: 26.2.2
   msw: 0.20.3
   prettier: 2.0.5
@@ -2775,6 +2776,14 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+  /fast-check/2.1.0:
+    dependencies:
+      pure-rand: 3.0.0
+    dev: true
+    engines:
+      node: '>=8.0.0'
+    resolution:
+      integrity: sha512-aZe06whLv1ZNFM1rn8mGL3+wf0PQpZyySQ81+O0L3APiLNzCi2PtJqeohn5Xab1yAxF3Vhzf5AvKzPispGd0tQ==
   /fast-deep-equal/3.1.3:
     dev: true
     resolution:
@@ -4806,6 +4815,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+  /pure-rand/3.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-7/U3rk8elhZPagxdheW1UHEhRr0IF8wCs3qyYVVswSxLoRrrrCMyaTKtAYIrCfuTeUoX/O3rN1piY/pX8JEcEA==
   /qs/6.5.2:
     dev: true
     engines:
@@ -6057,6 +6070,7 @@ specifiers:
   eslint-plugin-promise: ^4.2.1
   eslint-plugin-react: ^7.20.5
   eslint-plugin-standard: ^4.0.1
+  fast-check: ^2.1.0
   i18next: ^19.6.3
   jest: ^26.2.2
   msw: ^0.20.3
